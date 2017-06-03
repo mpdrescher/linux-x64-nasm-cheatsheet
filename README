@@ -83,7 +83,7 @@ Syscalls
 ========
 
 - put syscall number in EAX (e.g. 60 for exit, 1 for write)
-- put arguments in the registers (see above) as if syscall was a c function
+- put arguments in the registers (see above) like when calling a C function
 - execute `syscall`
 
 
