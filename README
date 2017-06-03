@@ -44,6 +44,9 @@ Align stack pointer (RSP..) to 16 byte, calling pushes 8 bytes!
 
 Keep in mind that strings (in C) are 0-terminated
 
+Like in a normal C program, the label that is called first is "main", with the args
+argc (argcount) in RDI, and the char** argvec in RSI (the commandline arguments).
+
 
 Data
 ====
@@ -77,6 +80,10 @@ extern <function> -> declares a function in another linked .o file (e.g. c funct
 section <option> -> sets section, usually:
 .text -> program code
 .data -> data
+
+The program entry point of a standalone program is the label "_start".
+When compiled with gcc, C provides "_start", which inits and then jumps to "main",
+which should then be implemented by the program.
 
 
 Syscalls
