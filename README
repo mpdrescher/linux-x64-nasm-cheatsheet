@@ -88,6 +88,6 @@ Syscalls
 Sources
 =======
 
-Main: `cs.lmu.edu/~ray/notes/nasmtutorial`
-Registers: `https://tutorialspoint.com/assembly_programming/assembly_registers.htm`
-Conditionals: `https://de.wikibooks.org/wiki/Assembler-Programmierung_für_x86-Prozessoren/_Sprünge_und_Schleifen`
+Main: http://cs.lmu.edu/~ray/notes/nasmtutorial
+Registers: https://tutorialspoint.com/assembly_programming/assembly_registers.htm
+Conditionals: https://de.wikibooks.org/wiki/Assembler-Programmierung_für_x86-Prozessoren/_Sprünge_und_Schleifen
