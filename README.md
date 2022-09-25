@@ -4,7 +4,7 @@ linux-x64-nasm-cheatsheet
 Registers
 ---------
 
- |                         | 64 bit    | 32 bit      | 16 bit      | 8 bit       |
+|                         | 64 bit    | 32 bit      | 16 bit      | 8 bit       |
 |-------------------------|-----------|-------------|-------------|-------------|
 | General purpose:        |           |             |             |             |
 | A (accumulator)         | RAX       | EAX         | AX          | AL          |
