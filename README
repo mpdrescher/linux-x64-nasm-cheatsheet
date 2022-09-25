@@ -50,7 +50,7 @@ Data
 8 bit: ............ db
 16 bit: ........... dw
 32 bit: ........... dd
-64 bit: ........... ddq/do
+64 bit: ........... dq/do
 float: ............ dd 
 double: ........... dq
 extended precision: dt
